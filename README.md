@@ -1,12 +1,3 @@
-# Thesis
-This work delves into the mathematical foundations and elaborates on a methodology for network
-generation based on spectral properties of graph-associated matrices. First, a comprehensive mathe-
-matical framework focusing on eigenvalues, eigenvectors, and matrix diagonalization was established.
-Next, network theory was explored, detailing basic concepts, standard models for network genera-
-tion, and the spectral properties of matrices related to graphs.
-Then, the Spectral Graph Forge (SGF) method was introduced, leveraging these spectral prop-
-erties to generate synthetic networks with the same community structure of a target one. Detailed
-mathematical formulations and coding implementations are provided, demonstrating the application
-of the method to both small and large networks. Finally, the algorithm was extended by introducing
-new transformations, with the goal to broaden the range of global properties that can be preserved
-in the synthetic network.
+# Abstract
+My thesis researched on a methodology for generating networks with target global characteristics, exploiting a methodology first introduced by Baldesi, L., Markopoulou, A., & Butts, C. T. (2018) in their paper Spectral Graph Forge: Graph Generation Targeting Modularity. This algorithm exploits the spectral properties of matrices associated to graphs, generating networks that match the modularity of a target network, which is useful both for creating synthetic network data and for anonymizing existing networks. After deeply studying the mathematics behind the spectrum of matrices, I have analyzed the algorithm and extended it by incorporating new transformations to capture other global characteristics beyond modularity.
+Links to the official website for download: https://lnkd.in/dxC7v928 
